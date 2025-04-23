@@ -14,6 +14,7 @@ import com.cts.service.ProductServiceImpl;
 @SpringBootApplication
 public class ProductCrudOperationUsingSpringJpaApplication {
 	public static void main(String[] args) {
+		System.out.println("Day 1 changes");
 		SpringApplication.run(ProductCrudOperationUsingSpringJpaApplication.class, args);
 	}
 }
